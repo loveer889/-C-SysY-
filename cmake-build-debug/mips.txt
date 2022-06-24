@@ -1,0 +1,13 @@
+.data
+.asciiz "hello world"
+.text
+li $28 268500992
+li $30 268697600
+addiu $4 $28 0
+li $2 4
+syscall
+li $2 10
+syscall
+li $2 10
+syscall
+li $28 268500992li $30 268697600addiu $4 $28 0li $2 4syscallli $2 10syscallli $2 10syscall
