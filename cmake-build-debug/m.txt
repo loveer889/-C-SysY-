@@ -1,5 +1,0 @@
-Main:
-print hello world
-const @2 = 0
-return
-return
